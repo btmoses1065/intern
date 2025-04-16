@@ -1,0 +1,73 @@
+/* General body and layout styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #e0f7fa, #fff3e0);
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+/* Heading styling */
+h1 {
+  color: #00796b;
+  margin-bottom: 20px;
+}
+
+/* Sentence to type styling */
+#sentence {
+  font-size: 1.2em;
+  color: #4e342e;
+  margin-bottom: 20px;
+}
+
+/* Input area styling for typing */
+#typing-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  border: 2px solid #bdbdbd;
+  border-radius: 6px;
+  min-height: 100px;
+  resize: none;
+  background-color: #fafafa;
+}
+
+/* Button styling */
+#start-btn {
+  padding: 10px 24px;
+  background-color: #009688;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#start-btn:hover {
+  background-color: #00796b;
+}
+
+/* Results section styling */
+.results {
+  margin-top: 25px;
+  font-size: 1.1em;
+  color: #37474f;
+}
+
+.results p {
+  margin: 6px 0;
+}
+
